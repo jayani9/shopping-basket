@@ -1,8 +1,8 @@
 import React from 'react'
 import './Hero.css'
-import quality_icon from '../Assets/quality_icon.png'
-import arrow from '../Assets/dropdown_icon.png'
-import hero from '../Assets/hero_img1.png'
+import hand_icon from '../Assets/hand_icon.png'
+import arrow from '../Assets/arrow.png'
+import hero from '../Assets/hero_image.png'
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
             <h2>New Arrivals Only</h2>
            <div className="quality-icon">
                 <p>new</p>
-                <img src={quality_icon} alt="" />
+                <img src={hand_icon} alt="" />
             </div>
             <p>collections</p>
             <p>for everyone</p>
