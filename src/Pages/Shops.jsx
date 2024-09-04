@@ -10,10 +10,10 @@ const Shops = () => {
     return (
         <div>
             <Hero />
-            <Popular/>
-            <Offers/>
-            <NewCollections/>
-            <Newsletter/>
+            <Popular />
+            <Offers />
+            <NewCollections />
+            <Newsletter />
         </div>
     )
 }
